@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centred text and SIGN UP page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<head>
+    <style>
+        /* Center-align text */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            margin: 0;
+            background-color:black;
+           
+        }
+        h2{
+            color: goldenrod;
+            font-size: 60px;
+        }
+        /* Styles for the login form */
+        .container {
+            text-align: center;
+            background-color: black;
+            padding: 100px;
+            border-radius: 0px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            color:goldenrod ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #f9f9f9;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color:darkgoldenrod;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>   
+</head>
+<body>
+    <div class="container">
+        <h2>SIGN UP</h2>
+        <form action="submit_signup.php" method="POST">
+            <div class="form-group">
+                <label for="new_username">FULL NAME</label>
+                <input type="password" id="new_password" name="new_password" required>
+            </div>
+            <div class="form-group">
+                <label for="new_username">PHONE</label>
+                <input type="password" id="new_password" name="new_password" required>
+            </div>
+            <div class="form-group">
+                <label for="new_username">EMAIL</label>
+                <input type="text" id="new_username" name="new_username" required>
+            </div>
+            <div class="form-group">
+                <label for="new_username">USERNAME</label>
+                <input type="text" id="new_username" name="new_username" required>
+            </div>
+            <div class="form-group">
+                <label for="new_password">PASSWORD</label>
+                <input type="password" id="new_password" name="new_password" required><br>
+            </div>
+            <div class="form-group">
+                <label for="new_password">CONFIRM PASSWORD</label>
+                <input type="password" id="new_password" name="new_password" required>
+            </div><br>
+
+            <div class="form-group">
+                <button type="submit">SUBMIT</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
