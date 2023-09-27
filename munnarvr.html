@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360-Degree Video</title>
+  <style>
+    #video-container {
+      width: 100%;
+      max-width: 800px; /* Adjust to your preferred width */
+      margin: 0 auto;
+      overflow: hidden;
+      cursor: grab;
+    }
+
+    #360-video {
+      width: 100%;
+      cursor: grab;
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video id="360-video" autoplay loop controls>
+      <source src="https://drive.google.com/uc?export=view&id=1LSRrFSjdGAQUiR8QvWCNG7B4dpxwraeS" type="video/mp4">
+      <!-- Add more video sources for different formats -->
+    </video>
+  </div>
+  <script src="munnarvr.js"></script>
+</body>
+</html>
