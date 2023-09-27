@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding-top: 0;
+}
+
+#id{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+.heading h6{
+    font-size:80px;
+    text-align: center;
+}
+
+.heading {
+    background-image: url("https://imgs.search.brave.com/4ZzpbPmfHJ5t1z3bMPBesCfPlMrwrsceLtoHPNg4NRQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI0/Njg4MTgzL3Bob3Rv/L3Rhai1tYWhhbC1h/bmQtaXRzLXJlZmxl/Y3Rpb24taW4tcG9v/bC1oZHIuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUVaVlQ4/VXpDZlhqWkZRUGxD/b1dMcWFuUEhYVi1Z/Z3c3RG9ycjBKbkR3/cUE9");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px; /* set the height of the div */
+  }
+
+  .vrlink{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
